@@ -14,6 +14,15 @@
     console.log(+x + +y);
     console.log(--x);
     console.log(--y);
+    console.log('Zee' < 'Zeee');
+    console.log('true' != 1);
+    var b = '0'
+    var a = 0;
+    console.log(a === b); //strict equality operator checks equality without type conversion
+
+    console.log(null == undefined);
+    console.log(typeof(null));
+    console.log(typeof(undefined));
 
 
 })();
