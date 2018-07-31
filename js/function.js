@@ -4,7 +4,13 @@
     for (var i = 2; i < n; i++) {
       if (!isPrime(i)) continue;
 
-      alert('test', (i)); // a prime
+      //alert(`prime number ${i}`); // a prime
+      var username = 'surbhi';
+      console.log('The name is ' + username);
+      console.log('The name is ', username);
+      alert('prime number ' + i);
+      alert('prime number ', i);
+
     }
   }
 
