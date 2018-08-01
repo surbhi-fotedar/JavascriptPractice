@@ -6,7 +6,11 @@
 
       //alert(`prime number ${i}`); // a prime
       var username = 'surbhi';
+      /* jshint -W087 */
+      debugger;
       console.log('The name is ' + username);
+
+
       console.log('The name is ', username);
       alert('prime number ' + i);
       alert('prime number ', i);
@@ -22,5 +26,6 @@
   }
 
   showPrimes(10);
+
 
 })();
