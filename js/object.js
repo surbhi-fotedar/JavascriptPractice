@@ -17,12 +17,21 @@
   // var user = makeUser("John", 30);
   // alert(user.name);
 
-  var user = {};
-  alert(user.noSuchProperty === undefined);
-
-  var obj = {
-    test: undefined
+  var user = {
+    name: 'john',
+    age: 20,
+    isAdmin: true
   };
-  alert(obj.test);
-  alert('test' in obj);
+
+  for (var key in user) {
+    alert(key);
+    alert(user[key]);
+  }
+  // alert(user.noSuchProperty === undefined);
+
+  // var obj = {
+  //   test: undefined
+  // };
+  // alert(obj.test);
+  // alert('test' in obj);
 })();
