@@ -1,4 +1,6 @@
 (function() {
+  'use strict';
+
   function User(name) {
     this.name = name;
     this.isAdmin = false;
@@ -8,4 +10,6 @@
 
   alert(user.name); // Jack
   alert(user.isAdmin); // false
+  alert(user.id = 100);
+  alert(typeof NaN);
 })();
